@@ -1,3 +1,11 @@
+'''
+pdf-color-pages-extractor-for-printing.py is used to analyze a pdf file and output 2 pdf files containing either color either white-black images (layout ready for double-sided printing)
+Copyright (C) 2020  gekigek99
+v4.0
+visit my github page: https://github.com/gekigek99
+If you like what I do please consider having a cup of coffee with me at: https://www.buymeacoffee.com/gekigek99
+''' 
+
 import fitz
 import time, os
 from PIL import Image
@@ -147,5 +155,8 @@ def pageshifter(input_list, shift):
     
     
 if __name__ == '__main__':
+    print('pdf-color-pages-extractor-for-printing v4.0')
+    print('Copyright (C) 2020 gekigek99')
+    print('visit my github page for updates: https://github.com/gekigek99')
     while True:
         main()
