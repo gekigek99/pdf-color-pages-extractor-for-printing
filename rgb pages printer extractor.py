@@ -133,8 +133,6 @@ def RGBimageanalyze(input_image):
     pix = im.load()
     for y in range(0, im.size[1], precision):
         for x in range(0, im.size[0], precision):
-##            if pix[x,y][0] == pix[x,y][1] and pix[x,y][1] == pix[x,y][2]:     #only perfect grey-scale is recognized
-##                continue
             r = pix[x,y][0]
             b = pix[x,y][1]
             g = pix[x,y][2]
